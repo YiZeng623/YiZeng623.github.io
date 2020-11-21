@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4c24561c-8ab7-4b91-b675-cfadf1729207" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +17,7 @@
   <component name="ProjectId" id="1f6zIxhklCzWj1lWwUBaVgyxUU9" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/ECE 143/workspace" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -44,6 +45,7 @@
       <workItem from="1603824960553" duration="1679000" />
       <workItem from="1603847292430" duration="4607000" />
       <workItem from="1604083913546" duration="625000" />
+      <workItem from="1605997959465" duration="280000" />
     </task>
     <servers />
   </component>
