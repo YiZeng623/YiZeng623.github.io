@@ -45,7 +45,10 @@
       <workItem from="1603824960553" duration="1679000" />
       <workItem from="1603847292430" duration="4607000" />
       <workItem from="1604083913546" duration="625000" />
-      <workItem from="1605997959465" duration="280000" />
+      <workItem from="1605997959465" duration="895000" />
+      <workItem from="1606197807051" duration="1406000" />
+      <workItem from="1606516574650" duration="35000" />
+      <workItem from="1629137306676" duration="903000" />
     </task>
     <servers />
   </component>
@@ -64,5 +67,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
