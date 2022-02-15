@@ -1,543 +1,104 @@
-<!DOCTYPE HTML>
-<!--
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<script>  window.onload=function() 
+ { 
+ setInterval("redirect();",3000); 
+ }  function redirect() 
+ { 
+ window.location.href="http://www.yi-zeng.com/"; 
+ } 
+</script>
+
+<style>
+	div {
+	  text-align:center;
+	  position: absolute;
+	  left:45%;
+	  top: 45%;
+	}
+	.text1{
+	  font-size:98px;
+	  text-shadow: 5px 5px 5px #FF0000;
+	  animation-name:myfirst;
+		animation-duration:1s;
+		animation-timing-function:linear;
+		animation-delay:0;
+		animation-iteration-count:1;
+		animation-direction:alternate;
+		animation-play-state:running;
+	  visibility:hidden;
+	}
+	.text2{
+	  font-size:98px;
+	  text-shadow: 5px 5px 5px #FF0000;
+	  animation-name:myfirst;
+		animation-duration:1s;
+		animation-timing-function:linear;
+		animation-delay:1s;
+		animation-iteration-count:1;
+		animation-direction:alternate;
+		animation-play-state:running;
+	  visibility:hidden;
+	}
+	.text3{
+	  font-size:98px;
+	  text-shadow: 5px 5px 5px #FF0000;
+	  animation-name:myfirst;
+		animation-duration:1s;
+		animation-timing-function:linear;
+		animation-delay:2s;
+		animation-iteration-count:1;
+		animation-direction:alternate;
+		animation-play-state:running;
+	  visibility:hidden;
+	}
+
+	.text4{
+	  font-size:98px;
+	  text-shadow: 5px 5px 5px #FF0000;
+	  animation-name:myfirst;
+		animation-duration:1s;
+		animation-timing-function:linear;
+		animation-delay:3s;
+		animation-iteration-count:1;
+		animation-direction:alternate;
+		animation-play-state:running;
+	  visibility:hidden;
+	}
+	.text5{
+	  font-size:98px;
+	  text-shadow: 5px 5px 5px #FF0000;
+	  animation-name:myfirst;
+		animation-duration:1s;
+		animation-timing-function:linear;
+		animation-delay:4s;
+		animation-iteration-count:1;
+		animation-direction:alternate;
+		animation-play-state:running;
+	  visibility:hidden;
+	}
+	@keyframes myfirst
+	{
+		0%   {transform: scale(1,1) rotate3d(0, 1, 0 , 0deg)  ;visibility: visible;}
+		20%  {transform: scale(1.3,1.3) rotate3d(0, 1, 0 , 120deg) ;visibility: visible;}
+		40%  {transform: scale(1.6,1.6) rotate3d(0, 1, 0 , 240deg) ;visibility: visible;}
+	   60%  {transform: scale(2,2) rotate3d(0, 1, 0 , 360deg) ;visibility: visible;}
+	  80%  {transform: scale(2,2) rotate3d(0, 1, 0 , 360deg) ;visibility: visible;}
+		100%  {transform: scale(2,2) rotate3d(0, 1, 0 , 360deg) ;visibility: visible;}
+	}
+	#pls{
+		position: absolute;
+		left: 0%;
+		top: 0%;
+	}
+</style>
+
 <html>
-	<head>
-		<title>Yi Zeng's Page</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
 
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/avatar0.jpg" alt="" /></a>
-					<h1>I am <strong>Yi Zeng</strong>, a first-year Ph.D. student<br />
-						@ the Bradley Department of ECE<br />
-						Virginia Tech.<br />
-						You can download my <a href="resume/Resume.pdf"><strong>Résumé Here</strong></a>.</h1>
-				</div>
-			</header>
+<div class="text1">3</div>
+<div class="text2">2</div>
+<div class="text3">1</div>
+<div class="text4">0</div>
+<div class="text5">0</div>
 
-		<!-- Main -->
-			<div id="main">
-
-				<!-- One -->
-					<section id="one">
-						<header class="major">
-							<h2>Something About Me</h2>
-						</header>
-						<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>I am a first-year Ph.D. student in Computer Engineering at Virginia Tech, advised by Prof. <a href="https://ruoxijia.info/">Ruoxi Jia</a>. My research focuses on trustworthy and safe Machine Learning (ML).
-							ML is at the heart of today's Artificial Intelligence (AI) implementations, and it is expected to provide accurate predictions or recognitions,
-							providing systems with reliable information for strategy making. We are especially at a point when AI is widely implemented in safety-critical cases such as autonomous driving,
-							network intrusion detection, personal device authorization, medical diagnosis, and so on, making the inherent safety issues in ML a critical concern.
-							Unfortunately, as my research has shown, even the most advanced deep neural networks are vulnerable to adversarial attacks.
-							Such a type of attack aims specifically at manipulating the output of the ML models,
-							causing the target model to output adversary specified results and thus directly cause system failures,
-							such as tricking a self-driving car into mistaking a stop sign for a speed limit sign. In my recent research,
-							I look at ML's inherent vulnerability from all angles, including its supply chains, training strategies, and inference policies.
-						</p>
-
-						<div class="col-6 col-12-xsmall">
-									<h5>Past Experience</h5>
-									<ul class="alt">
-										<li><strong>[2019]</strong> Research Assistant on network security @ BUPT, Beijing, China. With <a href="https://scholar.google.com/citations?hl=en&user=6JWNv6gAAAAJ">Dr. Han Qiu</a>.</li>
-										<li><strong>[2018]</strong> Visiting Student Scholar on ad-hoc network security @ Columbia University, New York. With <a href="https://scholar.google.com/citations?hl=en&user=smMVdtwAAAAJ">Prof. Meikang Qiu</a>.</li>
-										<li><strong>[2017]</strong> I feel fortunate to have started my research life early when I was pursuing my bachelor's degree at XDU under <a href="https://ieeexplore.ieee.org/author/37398871900">Prof Huaxi Gu</a>'s supervision. </li>
-									</ul>
-								</div>
-						<ul class="actions">
-							<li><a href="https://scholar.google.com/citations?user=K-U_ZqkAAAAJ&hl=en" class="button">See My Publications</a></li>
-							<li><a href="resume/Final%20Revision%20of%20Research%20Statement.pdf" class="button">My Research Statement</a></li>
-						</ul>
-					</section>
-
-				<!-- Two -->
-					<section id="two">
-
-						<h2>Selected Honors</h2>
-							<div class="table-wrapper">
-								<table>
-									<thead>
-										<tr>
-											<th>Name</th>
-											<th>Year</th>
-											<th>Link</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Best Paper Award, ICA3PP</td>
-											<td>2020</td>
-											<td><a href="files/ICA3PP_Defense.pdf"><strong>Check out the paper here</strong></td>
-										</tr>
-<!--										<tr>-->
-<!--											<td>Item Two</td>-->
-<!--											<td>Vis ac commodo adipiscing arcu aliquet.</td>-->
-<!--											<td>19.99</td>-->
-<!--										</tr>-->
-<!--										<tr>-->
-<!--											<td>Item Three</td>-->
-<!--											<td> Morbi faucibus arcu accumsan lorem.</td>-->
-<!--											<td>29.99</td>-->
-<!--										</tr>-->
-<!--										<tr>-->
-<!--											<td>Item Four</td>-->
-<!--											<td>Vitae integer tempus condimentum.</td>-->
-<!--											<td>19.99</td>-->
-<!--										</tr>-->
-<!--										<tr>-->
-<!--											<td>Item Five</td>-->
-<!--											<td>Ante turpis integer aliquet porttitor.</td>-->
-<!--											<td>29.99</td>-->
-<!--										</tr>-->
-									</tbody>
-<!--									<tfoot>-->
-<!--										<tr>-->
-<!--											<td colspan="2"></td>-->
-<!--											<td>100.00</td>-->
-<!--										</tr>-->
-<!--									</tfoot>-->
-								</table>
-							</div>
-
-						<h2>Recent Work</h2>
-						<div class="row">
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/MITIGATING2020.png" class="image fit thumb"><img src="images/thumbs/MITIGATING2020.png" alt="" /></a>
-								<h3>Mitigating Advanced Adversarial Attacks with More Advanced Gradient Obfuscation Techniques</h3>
-								<h5><a href="files/Mitigate_BPDA_Main.pdf">Link to The Paper</a>; <a href="files/Mitigate_BPDA_Appendix.pdf">Appendix</a></h5>
-								<p>We focused on deflecting the underlying assumption of advanced interactive attacks, namely the BPDA and EOT attack. The proposed defense take advantage of stochastic affine transformation and DCT-Based quantization that successfully evade all the existing attacks (BPDA, EOT, C&W, L-BFGS, I-FGSM, etc.)</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/PREPROCESS2020.png" class="image fit thumb"><img src="images/thumbs/PREPROCESS2020.png" alt="" /></a>
-								<h3>Data Augmentation as Defenses on Adversarial Examples: A Comprehensive Case Study</h3>
-								<p>We developed an open-sourced defense framework, termed Fencebox, which currently includes fifteen preprocessing-only defense methods. All the included methodologies can distort the gradient regarding an input without harm much over the classification result, thus can invalidate adversarial perturbations with high classification accuracy.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/BACKDOOR2020.png" class="image fit thumb"><img src="images/thumbs/BACKDOOR2020.png" alt="" /></a>
-								<h3>GYM: A Comprehensive Defense Approach against DNN Backdoor Attacks</h3>
-								<h5><a href="files/Backdoor_Main.pdf">Link to The Paper</a>; <a href="files/Backdoor_Appendix.pdf">Appendix</a></h5>
-								<p>We developed a comprehensive and attack agnostic defense framework against backdoor attacks. The defense is consists of intensive preprocessing, fine-tuning, and inference defense. The paper demonstrates that the GYM can invalidate all the mainstream backdoor attacks (including BadNets, Trojan, Invisible attacks).</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/WATERMARK2020.png" class="image fit thumb"><img src="images/thumbs/WATERMARK2020.png" alt="" /></a>
-								<h3>The Hidden Vulnerability of Watermarking for Deep Neural Networks</h3>
-								<h5><a href="https://arxiv.org/pdf/2009.08697.pdf">Link to The Paper</a></h5>
-								<p>Regarding intellectual property protection in the deep learning domain, we highlighted the potential vulnerability of model watermarks. We proposed a preprocessing based poison attack successfully invalidate watermarks functionalities. </p>
-							</article>
-						</div>
-						<ul class="actions">
-							<li><a href="https://github.com/YiZeng623" class="button">My Github</a></li>
-						</ul>
-					</section>
-
-
-
-
-				<!-- Three -->
-
-					<section>
-							<div class="box alt">
-								<div class="row gtr-50 gtr-uniform">
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/nemo0.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/nemo1.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/nemo2.jpg" alt="" /></span></div>
-								</div>
-							</div>
-						<p>I have a cute ass friend Nemo! And he has been accompanying me since this bloody pandemic forced my friend, his mammy, back to China. I love to take photos when he falls asleep to online courses! Follow me on my social media to get to know more about this one-year-old cute boy.</p>
-					</section>
-
-<!--					<section>-->
-<!--						<blockquote>I am planning to continue my research life over security as a Ph.D. student. My experience can definitely contribute to Groups focused on Adversarial Learning or explainable Deep Learning! I will post updates of my new role on this website. If you wanna grab a chat regarding anything interesting, you can send me an email by clicking at the 'mail' button on the left or <a href="mailto:y4zeng@eng.ucsd.edu">here</a>.</blockquote>-->
-<!--					</section>-->
-
-				<!-- Four -->
-<!--				&lt;!&ndash;-->
-<!--					<section id="four">-->
-<!--						<h2>Elements</h2>-->
-
-<!--						<section>-->
-<!--							<h4>Text</h4>-->
-<!--							<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.-->
-<!--							This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.-->
-<!--							This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>-->
-<!--							<hr />-->
-<!--							<header>-->
-<!--								<h4>Heading with a Subtitle</h4>-->
-<!--								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>-->
-<!--							</header>-->
-<!--							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>-->
-<!--							<header>-->
-<!--								<h5>Heading with a Subtitle</h5>-->
-<!--								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>-->
-<!--							</header>-->
-<!--							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>-->
-<!--							<hr />-->
-<!--							<h2>Heading Level 2</h2>-->
-<!--							<h3>Heading Level 3</h3>-->
-<!--							<h4>Heading Level 4</h4>-->
-<!--							<h5>Heading Level 5</h5>-->
-<!--							<h6>Heading Level 6</h6>-->
-<!--							<hr />-->
-<!--							<h5>Blockquote</h5>-->
-<!--							<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>-->
-<!--							<h5>Preformatted</h5>-->
-<!--							<pre><code>i = 0;-->
-
-<!--while (!deck.isInOrder()) {-->
-<!--print 'Iteration ' + i;-->
-<!--deck.shuffle();-->
-<!--i++;-->
-<!--}-->
-
-<!--print 'It took ' + i + ' iterations to sort the deck.';</code></pre>-->
-<!--						</section>-->
-
-<!--						<section>-->
-<!--							<h4>Lists</h4>-->
-<!--							<div class="row">-->
-<!--								<div class="col-6 col-12-xsmall">-->
-<!--									<h5>Unordered</h5>-->
-<!--									<ul>-->
-<!--										<li>Dolor pulvinar etiam magna etiam.</li>-->
-<!--										<li>Sagittis adipiscing lorem eleifend.</li>-->
-<!--										<li>Felis enim feugiat dolore viverra.</li>-->
-<!--									</ul>-->
-<!--									<h5>Alternate</h5>-->
-<!--									<ul class="alt">-->
-<!--										<li>Dolor pulvinar etiam magna etiam.</li>-->
-<!--										<li>Sagittis adipiscing lorem eleifend.</li>-->
-<!--										<li>Felis enim feugiat dolore viverra.</li>-->
-<!--									</ul>-->
-<!--								</div>-->
-<!--								<div class="col-6 col-12-xsmall">-->
-<!--									<h5>Ordered</h5>-->
-<!--									<ol>-->
-<!--										<li>Dolor pulvinar etiam magna etiam.</li>-->
-<!--										<li>Etiam vel felis at lorem sed viverra.</li>-->
-<!--										<li>Felis enim feugiat dolore viverra.</li>-->
-<!--										<li>Dolor pulvinar etiam magna etiam.</li>-->
-<!--										<li>Etiam vel felis at lorem sed viverra.</li>-->
-<!--										<li>Felis enim feugiat dolore viverra.</li>-->
-<!--									</ol>-->
-<!--									<h5>Icons</h5>-->
-<!--									<ul class="icons">-->
-<!--										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>-->
-<!--										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>-->
-<!--										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>-->
-<!--										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>-->
-<!--										<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>-->
-<!--										<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>-->
-<!--									</ul>-->
-<!--								</div>-->
-<!--							</div>-->
-<!--							<h5>Actions</h5>-->
-<!--							<ul class="actions">-->
-<!--								<li><a href="#" class="button primary">Default</a></li>-->
-<!--								<li><a href="#" class="button">Default</a></li>-->
-<!--							</ul>-->
-<!--							<ul class="actions small">-->
-<!--								<li><a href="#" class="button primary small">Small</a></li>-->
-<!--								<li><a href="#" class="button small">Small</a></li>-->
-<!--							</ul>-->
-<!--							<div class="row">-->
-<!--								<div class="col-6 col-12-small">-->
-<!--									<ul class="actions stacked">-->
-<!--										<li><a href="#" class="button primary">Default</a></li>-->
-<!--										<li><a href="#" class="button">Default</a></li>-->
-<!--									</ul>-->
-<!--								</div>-->
-<!--								<div class="col-6 col-12-small">-->
-<!--									<ul class="actions stacked">-->
-<!--										<li><a href="#" class="button primary small">Small</a></li>-->
-<!--										<li><a href="#" class="button small">Small</a></li>-->
-<!--									</ul>-->
-<!--								</div>-->
-<!--								<div class="col-6 col-12-small">-->
-<!--									<ul class="actions stacked">-->
-<!--										<li><a href="#" class="button primary fit">Default</a></li>-->
-<!--										<li><a href="#" class="button fit">Default</a></li>-->
-<!--									</ul>-->
-<!--								</div>-->
-<!--								<div class="col-6 col-12-small">-->
-<!--									<ul class="actions stacked">-->
-<!--										<li><a href="#" class="button primary small fit">Small</a></li>-->
-<!--										<li><a href="#" class="button small fit">Small</a></li>-->
-<!--									</ul>-->
-<!--								</div>-->
-<!--							</div>-->
-<!--						</section>-->
-
-<!--						<section>-->
-<!--							<h4>Table</h4>-->
-<!--							<h5>Default</h5>-->
-<!--							<div class="table-wrapper">-->
-<!--								<table>-->
-<!--									<thead>-->
-<!--										<tr>-->
-<!--											<th>Name</th>-->
-<!--											<th>Description</th>-->
-<!--											<th>Price</th>-->
-<!--										</tr>-->
-<!--									</thead>-->
-<!--									<tbody>-->
-<!--										<tr>-->
-<!--											<td>Item One</td>-->
-<!--											<td>Ante turpis integer aliquet porttitor.</td>-->
-<!--											<td>29.99</td>-->
-<!--										</tr>-->
-<!--										<tr>-->
-<!--											<td>Item Two</td>-->
-<!--											<td>Vis ac commodo adipiscing arcu aliquet.</td>-->
-<!--											<td>19.99</td>-->
-<!--										</tr>-->
-<!--										<tr>-->
-<!--											<td>Item Three</td>-->
-<!--											<td> Morbi faucibus arcu accumsan lorem.</td>-->
-<!--											<td>29.99</td>-->
-<!--										</tr>-->
-<!--										<tr>-->
-<!--											<td>Item Four</td>-->
-<!--											<td>Vitae integer tempus condimentum.</td>-->
-<!--											<td>19.99</td>-->
-<!--										</tr>-->
-<!--										<tr>-->
-<!--											<td>Item Five</td>-->
-<!--											<td>Ante turpis integer aliquet porttitor.</td>-->
-<!--											<td>29.99</td>-->
-<!--										</tr>-->
-<!--									</tbody>-->
-<!--									<tfoot>-->
-<!--										<tr>-->
-<!--											<td colspan="2"></td>-->
-<!--											<td>100.00</td>-->
-<!--										</tr>-->
-<!--									</tfoot>-->
-<!--								</table>-->
-<!--							</div>-->
-
-<!--							<h5>Alternate</h5>-->
-<!--							<div class="table-wrapper">-->
-<!--								<table class="alt">-->
-<!--									<thead>-->
-<!--										<tr>-->
-<!--											<th>Name</th>-->
-<!--											<th>Description</th>-->
-<!--											<th>Price</th>-->
-<!--										</tr>-->
-<!--									</thead>-->
-<!--									<tbody>-->
-<!--										<tr>-->
-<!--											<td>Item One</td>-->
-<!--											<td>Ante turpis integer aliquet porttitor.</td>-->
-<!--											<td>29.99</td>-->
-<!--										</tr>-->
-<!--										<tr>-->
-<!--											<td>Item Two</td>-->
-<!--											<td>Vis ac commodo adipiscing arcu aliquet.</td>-->
-<!--											<td>19.99</td>-->
-<!--										</tr>-->
-<!--										<tr>-->
-<!--											<td>Item Three</td>-->
-<!--											<td> Morbi faucibus arcu accumsan lorem.</td>-->
-<!--											<td>29.99</td>-->
-<!--										</tr>-->
-<!--										<tr>-->
-<!--											<td>Item Four</td>-->
-<!--											<td>Vitae integer tempus condimentum.</td>-->
-<!--											<td>19.99</td>-->
-<!--										</tr>-->
-<!--										<tr>-->
-<!--											<td>Item Five</td>-->
-<!--											<td>Ante turpis integer aliquet porttitor.</td>-->
-<!--											<td>29.99</td>-->
-<!--										</tr>-->
-<!--									</tbody>-->
-<!--									<tfoot>-->
-<!--										<tr>-->
-<!--											<td colspan="2"></td>-->
-<!--											<td>100.00</td>-->
-<!--										</tr>-->
-<!--									</tfoot>-->
-<!--								</table>-->
-<!--							</div>-->
-<!--						</section>-->
-
-<!--						<section>-->
-<!--							<h4>Buttons</h4>-->
-<!--							<ul class="actions">-->
-<!--								<li><a href="#" class="button primary">Primary</a></li>-->
-<!--								<li><a href="#" class="button">Default</a></li>-->
-<!--							</ul>-->
-<!--							<ul class="actions">-->
-<!--								<li><a href="#" class="button large">Large</a></li>-->
-<!--								<li><a href="#" class="button">Default</a></li>-->
-<!--								<li><a href="#" class="button small">Small</a></li>-->
-<!--							</ul>-->
-<!--							<ul class="actions fit">-->
-<!--								<li><a href="#" class="button primary fit">Fit</a></li>-->
-<!--								<li><a href="#" class="button fit">Fit</a></li>-->
-<!--							</ul>-->
-<!--							<ul class="actions fit small">-->
-<!--								<li><a href="#" class="button primary fit small">Fit + Small</a></li>-->
-<!--								<li><a href="#" class="button fit small">Fit + Small</a></li>-->
-<!--							</ul>-->
-<!--							<ul class="actions">-->
-<!--								<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>-->
-<!--								<li><a href="#" class="button icon solid fa-download">Icon</a></li>-->
-<!--							</ul>-->
-<!--							<ul class="actions">-->
-<!--								<li><span class="button primary disabled">Primary</span></li>-->
-<!--								<li><span class="button disabled">Default</span></li>-->
-<!--							</ul>-->
-<!--						</section>-->
-
-<!--						<section>-->
-<!--							<h4>Form</h4>-->
-<!--							<form method="post" action="#">-->
-<!--								<div class="row gtr-uniform gtr-50">-->
-<!--									<div class="col-6 col-12-xsmall">-->
-<!--										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />-->
-<!--									</div>-->
-<!--									<div class="col-6 col-12-xsmall">-->
-<!--										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />-->
-<!--									</div>-->
-<!--									<div class="col-12">-->
-<!--										<select name="demo-category" id="demo-category">-->
-<!--											<option value="">- Category -</option>-->
-<!--											<option value="1">Manufacturing</option>-->
-<!--											<option value="1">Shipping</option>-->
-<!--											<option value="1">Administration</option>-->
-<!--											<option value="1">Human Resources</option>-->
-<!--										</select>-->
-<!--									</div>-->
-<!--									<div class="col-4 col-12-small">-->
-<!--										<input type="radio" id="demo-priority-low" name="demo-priority" checked>-->
-<!--										<label for="demo-priority-low">Low Priority</label>-->
-<!--									</div>-->
-<!--									<div class="col-4 col-12-small">-->
-<!--										<input type="radio" id="demo-priority-normal" name="demo-priority">-->
-<!--										<label for="demo-priority-normal">Normal Priority</label>-->
-<!--									</div>-->
-<!--									<div class="col-4 col-12-small">-->
-<!--										<input type="radio" id="demo-priority-high" name="demo-priority">-->
-<!--										<label for="demo-priority-high">High Priority</label>-->
-<!--									</div>-->
-<!--									<div class="col-6 col-12-small">-->
-<!--										<input type="checkbox" id="demo-copy" name="demo-copy">-->
-<!--										<label for="demo-copy">Email me a copy of this message</label>-->
-<!--									</div>-->
-<!--									<div class="col-6 col-12-small">-->
-<!--										<input type="checkbox" id="demo-human" name="demo-human" checked>-->
-<!--										<label for="demo-human">I am a human and not a robot</label>-->
-<!--									</div>-->
-<!--									<div class="col-12">-->
-<!--										<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>-->
-<!--									</div>-->
-<!--									<div class="col-12">-->
-<!--										<ul class="actions">-->
-<!--											<li><input type="submit" value="Send Message" class="primary" /></li>-->
-<!--											<li><input type="reset" value="Reset" /></li>-->
-<!--										</ul>-->
-<!--									</div>-->
-<!--								</div>-->
-<!--							</form>-->
-<!--						</section>-->
-
-<!--						<section>-->
-<!--							<h4>Image</h4>-->
-<!--							<h5>Fit</h5>-->
-<!--							<div class="box alt">-->
-<!--								<div class="row gtr-50 gtr-uniform">-->
-<!--									<div class="col-12"><span class="image fit"><img src="images/fulls/05.jpg" alt="" /></span></div>-->
-<!--									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>-->
-<!--									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>-->
-<!--									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>-->
-<!--									<div class="col-4"><span class="image fit"><img src="images/thumbs/04.jpg" alt="" /></span></div>-->
-<!--									<div class="col-4"><span class="image fit"><img src="images/thumbs/05.jpg" alt="" /></span></div>-->
-<!--									<div class="col-4"><span class="image fit"><img src="images/thumbs/06.jpg" alt="" /></span></div>-->
-<!--									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>-->
-<!--									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>-->
-<!--									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>-->
-<!--								</div>-->
-<!--							</div>-->
-<!--							<h5>Left &amp; Right</h5>-->
-<!--							<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>-->
-<!--							<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>-->
-<!--						</section>-->
-
-<!--						<section id="three">-->
-<!--							<h2>Get In Touch</h2>-->
-<!--							<p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>-->
-<!--							<div class="row">-->
-<!--								<div class="col-8 col-12-small">-->
-<!--									<form method="post" action="mailto:y4zeng@eng.ucsd.edu">-->
-<!--										<div class="row gtr-uniform gtr-50">-->
-<!--											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>-->
-<!--											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>-->
-<!--											<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>-->
-<!--										</div>-->
-<!--									</form>-->
-<!--									<ul class="actions">-->
-<!--										<li><input type="submit" value="Send Message" /></li>-->
-<!--									</ul>-->
-<!--								</div>-->
-<!--								<div class="col-4 col-12-small">-->
-<!--									<ul class="labeled-icons">-->
-<!--										<li>-->
-<!--											<h3 class="icon solid fa-home"><span class="label">Address</span></h3>-->
-<!--											1234 Somewhere Rd.<br />-->
-<!--											Nashville, TN 00000<br />-->
-<!--											United States-->
-<!--										</li>-->
-<!--										<li>-->
-<!--											<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>-->
-<!--											000-000-0000-->
-<!--										</li>-->
-<!--										<li>-->
-<!--											<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>-->
-<!--											<a href="#">hello@untitled.tld</a>-->
-<!--										</li>-->
-<!--									</ul>-->
-<!--								</div>-->
-<!--							</div>-->
-<!--						</section>-->
-
-
-<!--					</section>-->
-<!--				&ndash;&gt;-->
-
-<!--			</div>-->
-
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<ul class="icons">
-						<li><a href="images/ins.jpg" class="icon brands fa-instagram"><span class="label">Twitter</span></a></li>
-						<li><a href="https://github.com/YiZeng623" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="images/wechat.jpg" class="icon brands fa-weixin"><span class="label">WeChat</span></a></li>
-						<li><a href="mailto:y4zeng@eng.ucsd.edu" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>“I've never met a strong person with an easy past.”   </li>
-							<li>-- Atticus Finch</li>
-					</ul>
-				</div>
-			</footer>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+<META HTTP-EQUIV='Refresh' CONTENT='3;URL=http://www.yi-zeng.com/'>
+<div id="pls">Please visit my new website: <a href="http://www.yi-zeng.com/">http://www.yi-zeng.com/</a></div>
 </html>
